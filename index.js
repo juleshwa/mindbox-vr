@@ -7,7 +7,7 @@ export default class mindbox_vr extends React.Component {
       <View style={styles.panel}>
         <View style={styles.greetingBox}>
           <Text style={styles.greeting}>
-            Do you remember every each of them? This is MindBox Therapy.
+            Do you remember every each of them?
           </Text>
         </View>
       </View>
@@ -20,12 +20,12 @@ const styles = StyleSheet.create({
     // Fill the entire surface
     width: 1000,
     height: 600,
-    backgroundColor: 'rgba(0, 0, 0, 0,4)',
+    backgroundColor: 'rgba(255, 255, 255, 0,4)',
     justifyContent: 'center',
     alignItems: 'center'
   },
   greetingBox: {
-    padding: 50,
+    padding: 30,
     backgroundColor: '#000000',
     borderColor: '#639dda',
     borderRadius: 50
